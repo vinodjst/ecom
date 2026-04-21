@@ -1,0 +1,50 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+
+    background-color: rgb(177, 177, 223);
+    text-align: center;
+    
+}
+
+.navbar {
+
+      display: flex;
+      gap: 10px;
+      justify-content: right;
+      list-style-type: none;
+      font-size: larger;
+      font-weight: bolder;
+
+
+}
+
+
+.product-container {
+      
+    display: grid;
+    grid-template-columns: repeat(4,5fr);
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.product-card {
+
+     border: 1px solid black;
+     background-color: rgb(113, 35, 185);
+     color: aliceblue;
+     text-align: center;
+       padding: 10px;
+}
+
+.product-card button{
+
+    background-color: chartreuse;
+    
+}
+
