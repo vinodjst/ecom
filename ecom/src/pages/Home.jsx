@@ -10,7 +10,7 @@ function Home() {
 
     <div>
  
-        <h1>Ecom - shopee</h1>
+      
     
     <Navbar/>
     <Products/>

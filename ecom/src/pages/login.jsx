@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import '../auth.css'
-import Navbar from '../components/Navbar';
+import Navbar from '../components/Navbar'
+import '../home.css'
 
 function Login() {
   return (
