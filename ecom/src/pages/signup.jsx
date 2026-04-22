@@ -3,6 +3,9 @@ import '../auth.css'
 
 function Signup() {
   return (
+    <div>
+      <Navbar />
+    
     <div className="auth-container">
       <div className="auth-card">
         <h2>Create Account</h2>
@@ -22,6 +25,7 @@ function Signup() {
         <button className="auth-btn">Sign Up</button>
         <p className="auth-footer">Already have an account? <Link to="/login">Login</Link></p>
       </div>
+    </div>
     </div>
   );
 }

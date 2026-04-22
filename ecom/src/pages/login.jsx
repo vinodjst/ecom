@@ -1,8 +1,12 @@
 import { Link } from 'react-router-dom'
 import '../auth.css'
+import Navbar from '../components/Navbar';
 
 function Login() {
   return (
+    <div>
+      <Navbar />
+   
     <div className="auth-container">
       <div className="auth-card">
         <h2>Welcome Back</h2>
@@ -19,6 +23,7 @@ function Login() {
         <p className="auth-footer">Don't have an account? <Link to="/signup">Sign Up</Link></p>
       </div>
     </div>
+     </div>
   );
 }
 
