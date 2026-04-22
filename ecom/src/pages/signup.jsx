@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom'
 import '../auth.css'
+import Navbar from '../components/Navbar';
 
 function Signup() {
   return (
     <div>
       <Navbar />
-    
+
     <div className="auth-container">
       <div className="auth-card">
         <h2>Create Account</h2>
