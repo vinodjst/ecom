@@ -5,7 +5,9 @@ function Navbar() {
   return (
 
     <div>
-        <h1>Ecom - shopee</h1>
+       <div className="homeh1">
+          <h1>Ecom - shopee</h1>
+          </div>
     
    <div>
 

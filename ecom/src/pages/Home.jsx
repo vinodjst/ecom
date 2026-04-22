@@ -12,6 +12,8 @@ function Home() {
 
     <div>
  
+          <Navbar/>
+       
       
     
     <Products/>
