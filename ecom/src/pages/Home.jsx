@@ -12,11 +12,7 @@ function Home() {
 
     <div>
  
-         <div className="homeh1">
-          <h1>Ecom - shopee</h1>
-          <Navbar/>
-          </div>
-    
+      
     
     <Products/>
     </div>
